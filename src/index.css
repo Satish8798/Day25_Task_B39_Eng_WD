@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+}
+
+.side-bar{
+  background-color: #5F9DF7;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.side-bar-brand{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px groove white
+}
+
+.side-bar-dashboard{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px groove white
+}
+
+.side-bar-brand:hover{
+  cursor: pointer;
+}
+
+.side-bar-interface-options,.side-bar-utility-options, .side-bar-addon-options{
+  display: block;
+}
+
+.side-bar-interface-options p,.side-bar-utility-options p, .side-bar-addon-options p{
+  font-size:small;
+  color:#EDEDED
+}
+
+.interface-components,.interface-utilities, .interface-pages{
+  margin-left: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-content: center;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.interface-components-list,.interface-utilities-list ,.interface-pages-list{
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.interface-components-list h6,.interface-utilities-list h6, .interface-pages-list h6{
+  color: grey;
+  font-size: xx-small;
+}
+
+.interface-components-list p,.interface-utilities-list p , .interface-pages-list p{
+  color: #000;
+  width:80%;
+  margin-top:.5rem;
+  padding: .5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.interface-components-list p:hover, .interface-utilities-list p:hover, .interface-pages-list:hover{
+  background-color: rgb(199, 193, 193);
+}
+
+
+.main{
+  background-color: #EDEDED;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.navigation{
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-icon:hover{
+  cursor: pointer;
+}
+
+.nav-icons-profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icons-profile .nav-icons{
+  padding: 5px;
+  display: flex;
+  border-right: 1px ridge rgb(189, 188, 188);
+  padding-right: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icons-profile .nav-profile-items{
+  padding-left: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icons-profile .nav-profile-items img{
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.dashboard-cards{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+/* Projects */
+
+.progress-bars{
+  margin: 20px;
+  width: 600px;
+  background-color: white;
+}
+
+.progress-bars>p{
+  border-bottom: 1px solid grey;
+  padding: 20px;
+  font-weight: 900;
+  color: grey
+}
+
+.projects-list{
+  padding: 10px;
+}
+
+.projects-list div{
+  margin-bottom: .5rem;
+}
